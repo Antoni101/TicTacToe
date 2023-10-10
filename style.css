@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: Beige;
+  overflow: hidden;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+#grid {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  place-items: center;
+}
+.square{
+  background-color: HoneyDew;
+  width: 200px;
+  height: 200px;
+  transition: 0.1s;
+  font-size: 100px;
+  border: 0.7px solid black;
+}
+.square:hover{
+  font-size: 105px;
+  background-color: Ivory;
+}
+
+#score {
+  font-size: 50px;
+  font-family: Orbitron, sans-serif;
+  text-align: center;
+  display: block;
+  padding: 50px;
+}
+
